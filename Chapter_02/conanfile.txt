@@ -1,5 +1,6 @@
 [requires]
-OpenCV/master@damiles/stable
+protobuf/3.21.9
 
 [generators]
-cmake
+CMakeDeps
+CMakeToolchain
