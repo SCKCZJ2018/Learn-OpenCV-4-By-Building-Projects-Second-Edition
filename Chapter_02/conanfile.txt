@@ -1,5 +1,6 @@
 [requires]
 opencv/4.5.5
+protobuf/3.21.9
 
 [generators]
 CMakeDeps
