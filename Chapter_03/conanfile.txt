@@ -1,8 +1,9 @@
 [requires]
-OpenCV/master@damiles/stable
+opencv/4.5.5
+glfw/3.3.8
+glad/0.1.36
+opengl/system
 
 [generators]
-cmake
-
-[options]
-OpenCV:with_vtk=True 
+CMakeDeps
+CMakeToolchain
